@@ -1,0 +1,19 @@
+def scrape_product_reviews(product_details):
+    # ... existing setup ...
+
+    review_request = {
+        "IsGetSummary": True,
+        # ... other parameters ...
+        "SearchProperty": {
+            "CombineGroup": 2,
+            # ... other properties ...
+            "ItemGroupId": product_details.get("item_group_id", 200826006),
+            "ItemNumber": item_number,
+            "NeweggItemNumber": newegg_item_number,
+            # ... other properties ...
+            "SubCategoryId": product_details.get("sub_category_id", "343"),
+            # ... remaining parameters ...
+        }
+    }
+    
+    # ... rest of the function ...
