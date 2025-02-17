@@ -15,11 +15,11 @@ if __name__ == "__main__":
     urls_to_push = [
         "https://www.newegg.com/amd-ryzen-9-9900x-ryzen-9-9000-series-granite-ridge-socket-am5-processor/p/N82E16819113842",
         "https://www.newegg.com/intel-core-i7-14700k-core-i7-14th-gen-raptor-lake-lga-1700-desktop-processor/p/N82E16819118466",
-        #"https://www.newegg.com/intel-core-i9-14900ks-core-i9-14th-gen-raptor-lake-lga-1700-desktop-processor/p/N82E16819118496",
-        #"https://www.newegg.com/amd-ryzen-9-5950x-ryzen-9-5000-series-vermeer-socket-am4-desktop-processor/p/N82E16819113663",
-        #"https://www.newegg.com/intel-core-i5-14400-core-i5-14th-gen-raptor-lake-lga-1700-processor/p/N82E16819118480",
-        #"https://www.newegg.com/intel-core-i7-14700k-core-i7-14th-gen-raptor-lake-lga-1700-desktop-processor/p/N82E16819118466",
-        #"https://www.newegg.com/amd-ryzen-5-5500-ryzen-5-5000-series/p/N82E16819113737",
+        "https://www.newegg.com/intel-core-i9-14900ks-core-i9-14th-gen-raptor-lake-lga-1700-desktop-processor/p/N82E16819118496",
+        "https://www.newegg.com/amd-ryzen-9-5950x-ryzen-9-5000-series-vermeer-socket-am4-desktop-processor/p/N82E16819113663",
+        "https://www.newegg.com/intel-core-i5-14400-core-i5-14th-gen-raptor-lake-lga-1700-processor/p/N82E16819118480",
+        "https://www.newegg.com/intel-core-i7-14700k-core-i7-14th-gen-raptor-lake-lga-1700-desktop-processor/p/N82E16819118466",
+        "https://www.newegg.com/amd-ryzen-5-5500-ryzen-5-5000-series/p/N82E16819113737",
     ]
     push_urls_to_redis(urls_to_push)
 
